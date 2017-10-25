@@ -34,9 +34,7 @@ body {
 #post {
   color: rgb(0, 250, 46);
 }
-img {
-  position: fixed;
-}
+
 .wrap,
 .shadow {
   opacity: 0.90;
