@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=VT323");
-
-body {
-  background-image: url(https://pixabay.com/get/eb37b80a2cf7003ed1534705fb0938c9bd22ffd41cb1194891f3c179af/spring-bird-2295431_1920.jpg)
+html{
+   background-image: url(https://pixabay.com/get/eb37b80a2cf7003ed1534705fb0938c9bd22ffd41cb1194891f3c179af/spring-bird-2295431_1920.jpg)
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
+  
+}
+body {
+ 
   font-family: "VT323";
   FONT-SIZE:18PX;
 }
