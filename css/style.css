@@ -1,29 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=VT323");
-html{
-   background-image: url(https://pixabay.com/get/eb37b80a2cf7003ed1534705fb0938c9bd22ffd41cb1194891f3c179af/spring-bird-2295431_1920.jpg)
-    no-repeat center center fixed;
+html {
+  background: url(https://pixabay.com/get/eb37b80a2cf7003ed1534705fb0938c9bd22ffd41cb1194891f3c179af/spring-bird-2295431_1920.jpg)no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
-  
 }
 body {
- 
   font-family: "VT323";
-  FONT-SIZE:18PX;
+  font-size: 18px;
 }
 #neutrino {
-  align: center;
-  position: relative;
   display: block;
   border-style: solid;
-  border-color: transparent;
-  border: 0;
-  width: 99%;
+  border-color: white;
   height: 300px;
-  padding: 1px;
+  margin:0 auto;
+  width:auto;
 }
 #math {
   color: rgb(250, 150, 60);
@@ -37,9 +30,9 @@ body {
 
 .wrap,
 .shadow {
-  opacity: 0.90;
+  opacity: 0.9;
   background-color: black;
-  width: 65%;
+  width: 85%;
   margin: 3% auto;
   color: white;
   align: center;
@@ -52,7 +45,7 @@ p {
   box-shadow: 5px 10px 5px 10px;
   color: black;
   width: 70%;
-  opacity: 0.66;
+  opacity: 0.86;
 }
 
 .all {
@@ -64,4 +57,19 @@ p,
 h4 {
   text-align: center;
   font-weight: 900;
+}
+#S {
+  color: cyan;
+}
+#A {
+  color: orange;
+}
+#T {
+  color: yellow;
+}
+#Y {
+  color: green;
+}
+#R {
+  color: violet;
 }
