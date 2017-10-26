@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=VT323");
 html {
-  background: url(https://pixabay.com/get/eb37b80a2cf7003ed1534705fb0938c9bd22ffd41cb1194891f3c179af/spring-bird-2295431_1920.jpg)no-repeat center center fixed;
+  background: url(https://pixabay.com/get/eb3db70f2ff2003ed1584d05fb0938c9bd22ffd41cb1184196f3c17ea4/background-2860761_1280.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,12 +11,9 @@ body {
   font-size: 18px;
 }
 #neutrino {
-  display: block;
-  border-style: solid;
-  border-color: white;
-  height: 300px;
-  margin:0 auto;
-  width:auto;
+  margin:0 auto;  
+  BORDER-STYLE:SOLID;
+  
 }
 #math {
   color: rgb(250, 150, 60);
