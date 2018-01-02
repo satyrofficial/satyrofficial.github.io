@@ -35,8 +35,9 @@ body {
   align: center;
   font-weight: 900;
 }
-p {
+p, h4 {
   background-color: black;
+  font-size: 1.5em;
 }
 .shadow {
   box-shadow: 5px 10px 5px 10px;
