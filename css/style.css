@@ -71,3 +71,8 @@ h4 {
 #R {
   color: violet;
 }
+a {
+  color: pink;
+  text-decoration: none;
+  margin:5px;
+}
