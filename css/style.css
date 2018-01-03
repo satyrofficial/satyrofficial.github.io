@@ -13,7 +13,6 @@ body {
 #neutrino {
   margin:0 auto;  
   BORDER-STYLE:SOLID;
-  
 }
 #math {
   color: rgb(250, 150, 60);
@@ -75,4 +74,12 @@ a {
   color: pink;
   text-decoration: none;
   margin:5px;
+}
+canvas{
+  height:150px;
+  display:block;
+  align::center;
+  margin:0 auto;
+  padding-top:8px;
+  margin-bottom:-15px;
 }
