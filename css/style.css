@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=VT323");
 html {
-  background: url(https://i.imgur.com/t0PCaiD.jpg) no-repeat center center fixed;
+  background: url(https://i.imgur.com/fLVXu6r.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 body {
   font-family: "VT323";
   font-size: 18px;
 }
 #neutrino {
-  margin:0 auto;  
-  BORDER-STYLE:SOLID;
+  margin: 0 auto;
+  border-style: SOLID;
 }
 #math {
   color: rgb(250, 150, 60);
@@ -34,9 +35,11 @@ body {
   align: center;
   font-weight: 900;
 }
-p, h4 {
+p {
   background-color: black;
-  font-size: 1.5em;
+}
+i {
+  margin: -1x;
 }
 .shadow {
   box-shadow: 5px 10px 5px 10px;
@@ -44,16 +47,29 @@ p, h4 {
   width: 70%;
   opacity: 0.86;
 }
-
+.members {
+  border-style: solid;
+  display: relative;
+  margin: 0 auto;
+}
+img {
+}
 .all {
   opacity: 1;
 }
 h2,
 h1,
 p,
-h4 {
+h4,
+h3 {
   text-align: center;
   font-weight: 900;
+}
+#mem {
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
 }
 #S {
   color: cyan;
@@ -70,17 +86,29 @@ h4 {
 #R {
   color: violet;
 }
+
 a {
   color: pink;
   text-decoration: none;
-  margin:5px;
+  margin:2px;
 }
 canvas{
-  height:150px;
+  max-width:300px;
+  height:200px;
   display:block;
-  align::center;
+  align:center;
   margin:0 auto;
   padding-top:8px;
-  margin-bottom:-15px;
+  margin-bottom:-30px;
   background-color:black;
 }
+p{
+  margin:1px;
+}
+#music{
+  margin:auto;
+  text-align:center;
+}
+
+
+
