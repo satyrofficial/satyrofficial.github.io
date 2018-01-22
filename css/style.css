@@ -54,6 +54,8 @@ i {
   margin: 0 auto;
 }
 img {
+  height:auto;
+  width:auto;
 }
 .all {
   opacity: 1;
