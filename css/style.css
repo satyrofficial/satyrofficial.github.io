@@ -16,9 +16,9 @@ li a:hover {
 .andromeda {
   border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQertZednpBrYco_KBxV1fOiji2xbFDzBWUcdimzl7zliP2LsN5Xw");
 
-  float: right;
+  text-align:center;
   /*   color:white; */
-  width: 33%;
+  
   margin: 0x;
 }
 .neutrino {
@@ -100,11 +100,12 @@ li a {
   height:90%;
 }
 .tour{
-  width:300px;
+  width:auto;
   margin: 0 auto;
 }
 #ts3{
-  width:300px;
+  max-width:auto;
+  height:350px;
 }
 .merch{
   height:300px;
