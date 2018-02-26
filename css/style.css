@@ -1,128 +1,116 @@
-@import url("https://fonts.googleapis.com/css?family=VT323");
-html {
-  background: url(https://i.imgur.com/fLVXu6r.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+@import url("https://fonts.googleapis.com/css?family=Nanum+Pen+Script");
 
 body {
-  font-family: "VT323";
-  font-size: 18px;
-}
-#neutrino {
-  margin: 0 auto;
-  border-style: SOLID;
-}
-#math {
-  color: rgb(250, 150, 60);
-}
-#emo {
-  color: rgb(50, 200, 250);
-}
-#post {
-  color: rgb(0, 250, 46);
-}
-
-.wrap,
-.shadow {
-  opacity: 0.9;
-  background-color: black;
-  width: 85%;
-  margin: 3% auto;
-  color: white;
-  align: center;
-  font-weight: 900;
-}
-p {
-  background-color: black;
-  font-size: 1.5em;
-}
-i {
-  margin: -1x;
-}
-.shadow {
-  box-shadow: 5px 10px 5px 10px;
+  background: linear-gradient(#00ff00, #00FFFF, #ffe4e1, #00FF7F );
   color: black;
-  width: 70%;
-  opacity: 0.86;
+  font-family: "Nanum Pen Script", cursive;
+  font-size:1em;
 }
-.members {
-  border-style: solid;
-  display: relative;
-  margin: 0 auto;
+.page-wrapper{
+  width:100%;
 }
-img {
+li a:hover {
+  background-color: pink;
+  cursor: pointer;
 }
-.all {
-  opacity: 1;
+.andromeda {
+  border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQertZednpBrYco_KBxV1fOiji2xbFDzBWUcdimzl7zliP2LsN5Xw");
+
+  float: right;
+  /*   color:white; */
+  width: 33%;
+  margin: 0x;
 }
-h2,
-h1,
-p,
-h4,
-h3 {
+.neutrino {
+  width: 10%;
+  float: left;
+}
+#album {
   text-align: center;
-  font-weight: 900;
+  width: 30%;
+  float: left;
+  margin: 5px;
 }
-#mem {
-  display: block;
-  height: 300px;
-  margin: 0 auto;
-  position: relative;
+/* .footer {
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(yellow, purple);
+  color: white;
+  text-align: center;
+  
+} */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
-#S {
-  color: cyan;
-}
-#A {
-  color: orange;
-}
-#T {
-  color: yellow;
-}
-#Y {
-  color: lightgreen;
-}
-#R {
-  color: violet;
+/* nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+  background: linear-gradient(cyan, pink, lightgreen);
 }
 
-a {
-  color: pink;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
   text-decoration: none;
-  margin:2px;
 }
-canvas{
-  max-width:300px;
-  height:200px;
-  display:block;
-  align:center;
-  margin:0 auto;
-  padding-top:8px;
-  margin-bottom:-30px;
-  background-color:black;
+/* end nav bar*/
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
-p{
-  margin:1px;
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
-#music{
-  margin:auto;
+#neutrino-tour{
+  display:inline;
+  float:left;
+  margin:0;
   text-align:center;
 }
-
-#merch{
- color:lightgreen;
+#satyr{
+  width:50%;
 }
-#twitt{
-  color:lightblue;
+#us{
+  width:100%;
+  margin:0px;
+  padding:0px;
+  height:90%;
 }
-#insta{
-  color:rgb(170,100,200);
+.tour{
+  width:300px;
+  margin: 0 auto;
 }
-#fb{
-  color:rgb(100,100,200);
+#ts3{
+  width:300px;
 }
-
-
-
+.merch{
+  height:300px;
+  width:250px;
+}
+.merch-pics{
+  display:inline;
+  text-align: center;
+}
