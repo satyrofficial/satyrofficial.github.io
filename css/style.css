@@ -14,12 +14,7 @@ li a:hover {
   cursor: pointer;
 }
 .andromeda {
-  border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQertZednpBrYco_KBxV1fOiji2xbFDzBWUcdimzl7zliP2LsN5Xw");
-
   text-align:center;
-  /*   color:white; */
-  
-  margin: 0x;
 }
 .neutrino {
   width: 10%;
@@ -101,7 +96,7 @@ li a {
 }
 .tour{
   width:auto;
-  margin: 0 auto;
+  text-align:center;
 }
 #ts3{
   max-width:auto;
