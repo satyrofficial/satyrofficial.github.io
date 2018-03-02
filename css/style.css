@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Pen+Script");
 
+i{
+  color:rgb(100,100,100);
+}
 body {
   background: linear-gradient(#00ff00, #00FFFF, #ffe4e1, #00FF7F );
   color: black;
   font-family: "Nanum Pen Script", cursive;
   font-size:1em;
+}
+a{
+  text-decoration: none;
 }
 .page-wrapper{
   width:100%;
@@ -34,7 +40,7 @@ li a:hover {
   background: linear-gradient(yellow, purple);
   color: white;
   text-align: center;
-  
+
 } */
 .footer {
   position: absolute;
