@@ -1,7 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Pen+Script");
 
-i{
-  color:rgb(100,100,100);
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+}
+.content {
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+}
+.footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+  background-color:red;
 }
 body {
   background: linear-gradient(#00ff00, #00FFFF, #ffe4e1, #00FF7F );
