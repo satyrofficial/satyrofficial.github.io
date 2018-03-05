@@ -46,25 +46,7 @@ li a:hover {
   float: left;
   margin: 5px;
 }
-/* .footer {
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  width: 100%;
-  background: linear-gradient(yellow, purple);
-  color: white;
-  text-align: center;
 
-} */
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}
 /* nav bar */
 ul {
   list-style-type: none;
